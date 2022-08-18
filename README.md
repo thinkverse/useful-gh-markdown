@@ -2,6 +2,8 @@
 
 ## Enhanced Blockquotes
 
+- [ ] Works on GitHub mobile app.
+
 > **Note** this repository does not contain `GitHub Flavored Markdown`.
 
 ```md
@@ -14,6 +16,8 @@
 ```
 
 ## Context-based images
+
+- [x] Works on GitHub mobile app.
 
 Specify an image to display based on the preferred color scheme. Change your color scheme from light to dark or vice-versa to see the image change.
 
