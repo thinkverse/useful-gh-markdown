@@ -1,4 +1,4 @@
-# GitHub Flavored Markdown
+# Useful GitHub Flavored Markdown.
 
 ## Enhanced Blockquotes
 
