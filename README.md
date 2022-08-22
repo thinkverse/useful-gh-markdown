@@ -17,6 +17,8 @@
 
 ## Context-based images
 
+### HTML version
+
 - [x] Works on GitHub mobile app.
 
 Specify an image to display based on the preferred color scheme. Change your color scheme from light to dark or vice-versa to see the image change.
@@ -24,8 +26,8 @@ Specify an image to display based on the preferred color scheme. Change your col
 Source: [Specify theme context for images in Markdown GA](https://github.blog/changelog/2022-08-15-specify-theme-context-for-images-in-markdown-ga/)
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/25423296/163456776-7f95b81a-f1ed-45f7-b7ab-8fa810d529fa.png">
-  <img alt="Shows an illustrated sun in light color mode and a moon with stars in dark color mode." src="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
+  <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/3369400/139447912-e0f43f33-6d9f-45f8-be46-2df5bbc91289.png">
+  <img alt="GitHub logomark." src="https://user-images.githubusercontent.com/3369400/139448065-39a229ba-4b06-434b-bc67-616e2ed80c8f.png">
 </picture>
 
 ```md
@@ -36,6 +38,8 @@ Source: [Specify theme context for images in Markdown GA](https://github.blog/ch
 ```
 
 ### Markdown version
+
+- [x] Works on GitHub mobile app.
 
 GitHub also supports themed images in Markdown, by appending `#gh-dark-mode-only` or `#gh-light-mode-only` at the end of an image url.
 
