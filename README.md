@@ -34,3 +34,17 @@ Source: [Specify theme context for images in Markdown GA](https://github.blog/ch
   <img alt="IMAGE_ALT" src="IMAGE_URL">
 </picture>
 ```
+
+### Markdown version
+
+GitHub also supports themed images in Markdown, by appending `#gh-dark-mode-only` or `#gh-light-mode-only` at the end of an image url.
+
+![GitHub-Mark-Light](https://user-images.githubusercontent.com/3369400/139447912-e0f43f33-6d9f-45f8-be46-2df5bbc91289.png#gh-dark-mode-only)
+![GitHub-Mark-Dark](https://user-images.githubusercontent.com/3369400/139448065-39a229ba-4b06-434b-bc67-616e2ed80c8f.png#gh-light-mode-only)
+
+```md
+![IMAGE_ALT](IMAGE_URL#gh-dark-mode-only)
+![IMAGE_ALT](IMAGE_URL#gh-light-mode-only)
+```
+
+Source: [Specify theme context for images in Markdown](https://github.blog/changelog/2021-11-24-specify-theme-context-for-images-in-markdown/)
