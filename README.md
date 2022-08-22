@@ -23,8 +23,6 @@
 
 Specify an image to display based on the preferred color scheme. Change your color scheme from light to dark or vice-versa to see the image change.
 
-Source: [Specify theme context for images in Markdown GA](https://github.blog/changelog/2022-08-15-specify-theme-context-for-images-in-markdown-ga/)
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/3369400/139447912-e0f43f33-6d9f-45f8-be46-2df5bbc91289.png">
   <img alt="GitHub logomark." src="https://user-images.githubusercontent.com/3369400/139448065-39a229ba-4b06-434b-bc67-616e2ed80c8f.png">
@@ -36,6 +34,8 @@ Source: [Specify theme context for images in Markdown GA](https://github.blog/ch
   <img alt="IMAGE_ALT" src="IMAGE_URL">
 </picture>
 ```
+
+Source: [Specify theme context for images in Markdown GA](https://github.blog/changelog/2022-08-15-specify-theme-context-for-images-in-markdown-ga/)
 
 ### Markdown version
 
