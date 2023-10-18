@@ -4,15 +4,39 @@
 
 - [ ] Works on GitHub mobile app.
 
-> **Note** this repository does not contain `GitHub Flavored Markdown`.
-
 ```md
-> **Note** BLOCKQUOTE_TEXT
+> [!NOTE]
+> BLOCKQUOTE_TEXT
 ```
-> **Warning** this only works on GitHub, or services where this is supported.
+
+> [!NOTE]
+> This repository does not contain `GitHub Flavored Markdown`.
 
 ```md
-> **Warning** BLOCKQUOTE_TEXT
+> [!WARNING]
+> BLOCKQUOTE_TEXT
+```
+
+> [!WARNING]
+> This only works on GitHub, or services where this is supported.
+
+#### 2023 Updates!
+
+As of July 2023, we got a new `IMPORTANT` type and a new `![TYPE]` syntax. You can read more about it in the [discussion](https://github.com/orgs/community/discussions/16925).
+
+```md
+> [!IMPORTANT]
+> BLOCKQUOTE_TEXT
+```
+
+> [!IMPORTANT]
+> This became available on 21st July 2023.
+
+The old syntax, `**type**` will be phased out in favor of the new syntax.
+
+```md
+> **Note**
+> This is the old syntax.
 ```
 
 ## Context-based images
