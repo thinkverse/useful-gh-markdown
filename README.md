@@ -76,3 +76,20 @@ GitHub also supports themed images in Markdown, by appending `#gh-dark-mode-only
 ```
 
 Source: [Specify theme context for images in Markdown](https://github.blog/changelog/2021-11-24-specify-theme-context-for-images-in-markdown/)
+
+
+## Fence blocks for Math
+
+You can specify a math-specific fence block with ` ```math `, it even supports LaTeX expressions, read more about it in the [documentation](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions). 
+
+````md
+```math
+\sqrt{3}
+```
+````
+
+```math
+\sqrt{3}
+```
+
+Source: [Fenced block syntax for mathematical expressions](https://github.blog/changelog/2022-06-28-fenced-block-syntax-for-mathematical-expressions/)
