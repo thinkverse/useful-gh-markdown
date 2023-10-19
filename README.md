@@ -80,6 +80,8 @@ Source: [Specify theme context for images in Markdown](https://github.blog/chang
 
 ## Fence blocks for Math
 
+- [ ] Works on GitHub mobile app.
+
 You can specify a math-specific fence block with ` ```math `, it even supports LaTeX expressions, read more about it in the [documentation](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions). 
 
 ````md
