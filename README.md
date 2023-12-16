@@ -1,8 +1,12 @@
 # Useful GitHub Flavored Markdown Snippets
 
-## Enhanced Blockquotes
+## Alerts
 
-- [ ] Works on GitHub mobile app.
+> Previously knows as "*Enhanced Blockquotes*."
+
+You can read about Alerts in the [documentation](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#alerts).
+
+- [x] Works on GitHub mobile app.
 
 ```md
 > [!NOTE]
@@ -10,7 +14,7 @@
 ```
 
 > [!NOTE]
-> This repository does not contain `GitHub Flavored Markdown`.
+> This repository contains `GitHub Flavored Markdown`.
 
 ```md
 > [!WARNING]
@@ -20,7 +24,7 @@
 > [!WARNING]
 > This only works on GitHub, or services where this is supported.
 
-#### 2023 Updates!
+#### July 2023 Update!
 
 As of July 2023, we got a new `IMPORTANT` type and a new `![TYPE]` syntax. You can read more about it in the [discussion](https://github.com/orgs/community/discussions/16925).
 
@@ -29,15 +33,26 @@ As of July 2023, we got a new `IMPORTANT` type and a new `![TYPE]` syntax. You c
 > BLOCKQUOTE_TEXT
 ```
 
-> [!IMPORTANT]
-> This became available on 21st July 2023.
+#### November 2023 Update!
 
-The old syntax, `**type**` will be phased out in favor of the new syntax.
+As of November 2023, we have two more types: `TIP` and `CAUTION`.
+
 
 ```md
-> **Note**
-> This is the old syntax.
+> [!TIP]
+> BLOCKQUOTE_TEXT
 ```
+
+> [!TIP]
+> This became available on 14th November 2023.
+
+```md
+> [!CAUTION]
+> BLOCKQUOTE_TEXT
+```
+
+> [!CAUTION]
+> Might not be supported on other platforms.
 
 ## Context-based images
 
